@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkblue;
+}
+.Home {
+  display: flex;
+  flex-direction: column; /* Stack the text and button vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height to center it vertically */
+  text-align: center; /* Center the text */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+.Home h2 {
+  margin-bottom: 20px; /* Add some space below the text */
+}
+
+.Home button {
+  padding: 10px 20px; /* Add padding for better button styling */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border: none; /* Remove button border */
+  background-color: #007BFF; /* Set button color */
+  color: white; /* Text color */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.Home button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
